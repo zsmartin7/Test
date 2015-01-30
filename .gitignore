@@ -17,3 +17,14 @@ nytprof.out
 /pm_to_blib
 *.o
 *.bs
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my $hobby;
+
+print "What is your favourite hobby chap?\n\n";
+$hobby=<STDIN>;
+chomp ($hobby);
+
+print "\nThat's great old boy. I've heard $hobby is a lot of fun! I love $hobby whilst drinking tea with me Mum at university!";
